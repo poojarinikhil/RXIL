@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entities</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Entities</h1>
+    <form id="entityForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="description">Description:</label>
+        <textarea id="description" name="description"></textarea>
+        <label for="user_id">User ID:</label>
+        <input type="number" id="user_id" name="user_id" required>
+        <button type="submit">Create Entity</button>
+    </form>
+    <div id="entitiesList"></div>
+    <script src="scripts.js"></script>
+</body>
+</html>
